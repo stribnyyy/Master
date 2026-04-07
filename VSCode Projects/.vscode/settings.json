@@ -1,0 +1,9 @@
+{
+    "code-runner.runInTerminal": true,           // ← главное изменение
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.showExecutionMessage": false,   // убирает надпись "Running ..."
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.executorMap": {
+        "cpp": "cd \"$dir\" && /usr/bin/clang++ -std=c++17 -stdlib=libc++ -arch arm64 \"$fileName\" -o \"$fileNameWithoutExt\" && \"./$fileNameWithoutExt\""
+    }
+}
