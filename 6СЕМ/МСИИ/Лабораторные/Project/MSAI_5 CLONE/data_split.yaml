@@ -1,0 +1,7 @@
+# data_split.yaml
+path: ./helmet_data_split   # относительный путь к папке с данными
+train: images/train         # путь к обучающим изображениям относительно 'path'
+val: images/val             # путь к валидационным изображениям
+
+nc: 3
+names: ['helmet', 'head', 'person']
